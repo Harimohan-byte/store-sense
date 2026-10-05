@@ -1,0 +1,53 @@
+zones:
+- name: Entry
+  type: entrance
+  polygon:
+  - - 1077
+    - 1689
+  - - 834
+    - 1337
+  - - 268
+    - 1316
+  - - 251
+    - 1685
+  - - 1073
+    - 1685
+- name: Middle
+  type: occasional
+  polygon:
+  - - 834
+    - 1333
+  - - 266
+    - 1316
+  - - 292
+    - 1068
+  - - 633
+    - 1077
+  - - 838
+    - 1331
+- name: Exit
+  type: checkout
+  polygon:
+  - - 633
+    - 1075
+  - - 499
+    - 893
+  - - 298
+    - 881
+  - - 292
+    - 1066
+  - - 635
+    - 1077
+profiles:
+  entrance:
+    dwell_mean: 3
+    dwell_std: 2
+  daily_need:
+    dwell_mean: 8
+    dwell_std: 4
+  occasional:
+    dwell_mean: 15
+    dwell_std: 8
+  checkout:
+    dwell_mean: 20
+    dwell_std: 10
