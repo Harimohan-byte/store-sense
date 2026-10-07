@@ -30,7 +30,7 @@ v = v[(v.activity != "outside") & (v.dur >= MIN_VISIT)]
 v = v.sort_values(["case_id", "start"])
 
 # merge same-zone events separated by a tiny gap (polygon-edge flicker)
-MERGE_GAP = 1.0
+MERGE_GAP = 5.0
 merged = []
 for cid, g in v.groupby("case_id"):
     cur = None
