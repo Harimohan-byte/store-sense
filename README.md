@@ -18,7 +18,7 @@
   <img src="docs/img/demo.gif" width="720" alt="StoreSense demo: tracked customers with trajectory trails">
 </p>
 
-> **Team Cipher Cell** · Harimohan Mishra, Bhavyaa Shree · IIIT Naya Raipur · [ADD: hackathon name]
+> **Team Cipher Cell** · Harimohan Mishra, Bhavyaa Shree · IIIT Naya Raipur · 
 
 ---
 
@@ -192,7 +192,6 @@ $$H(x,y) = \big(G_\sigma * N\big)(x,y), \qquad N(x,y)=\sum_i \mathbb{1}\big[(x_i
 
 The map is normalised and overlaid on the reference frame with zone outlines (`src/heatmap.py`, $\sigma = 35$ px).
 
-<p align="center"><img src="docs/img/heatmap.png" width="560" alt="Foot-traffic heat map"></p>
 
 ### 4.7 Statistics: footfall, dwell, speed and flags
 
