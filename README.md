@@ -142,8 +142,6 @@ A frame slider lets you pick the reference frame, and the track points can be ov
 
 Expected dwell mean and standard deviation per type live in `zones.yaml`. They are **starting priors, not measured truths**, and are meant to be calibrated per store.
 
-<p align="center"><img src="docs/img/zones.png" width="560" alt="Zones and track points on the reference frame"></p>
-
 ### 4.5 Event log (video becomes a process log)
 
 Every customer visit to a zone becomes an event, in the same structure used in process mining.
